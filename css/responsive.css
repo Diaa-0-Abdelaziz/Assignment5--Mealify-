@@ -1,0 +1,163 @@
+@media screen and (max-width:1195px)
+{
+  /* *******footer******** */
+  footer .container
+  {
+    flex-wrap: wrap;
+  }
+  footer .container > div
+  {
+    
+    margin: 0;
+  }
+  footer .container .social,
+  footer .container .comp_info
+  {
+    width: 45%;
+  }
+  .subscribe
+  {
+    order: 1;
+    width: 100%;
+  }
+}
+@media screen and (max-width:1024px)
+{
+    .right_nav > i
+    {
+        display: flex;
+    }
+    .nav_content .list
+    {
+      display: none;
+    }
+}
+@media screen and (max-width:992px)
+{
+    .welcome_display
+    {
+      flex-direction: column-reverse;
+    
+    }
+    .welcome_message .container > div 
+{
+    width: 100%;
+}
+.welcome_message_content.welcome
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.welcome_message_content.welcome h1
+{
+  font-size: 55px;
+}
+/* *****card**** */
+section#chefs .container
+{
+    flex-wrap: wrap;
+}
+section#chefs .card
+{
+    width: calc(100% / 2 - 10px);
+    margin-bottom: 20px;
+}
+/* ***** gallery ******/
+section#contact .container
+{
+    width: 75%;
+}
+section#gallery .container
+{
+    columns: 2;
+}
+
+}
+@media screen and (max-width:792px)
+{
+  /* *********contact*******/
+  section#contact .info > div 
+  {
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:769px)
+{
+    footer .container > div
+    {
+        width: 100%;
+      margin: 0;
+    }
+    footer .container .social,
+    footer .container .comp_info
+    {
+      width: 100%;
+    }
+    .subscribe
+    {
+      order: 0;
+      width: 100%;
+    }
+}
+@media screen and (max-width:692px)
+{
+    .welcome_message_content.welcome h1
+    {
+      font-size: 40px;
+    }
+    /* ******card***** */
+    section#chefs .card
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* ***** gallery ******/
+section#gallery .container
+{
+    columns: 1;
+}
+section#gallery .container 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+section#gallery .container > div.Food:nth-child(1)
+{
+    order: 1;
+}
+section#gallery .container > div.Food:nth-child(2)
+{
+    order: 3;
+}
+section#gallery .container > div.Food:nth-child(3)
+{
+    order: 5;
+}
+section#gallery .container > div.Food:nth-child(4)
+{
+    order: 4;
+}
+section#gallery .container > div.Food:nth-child(5)
+{
+    order: 2;
+}
+section#gallery .container > div.Food:nth-child(6)
+{
+    order: 6;
+}
+section#gallery .container > div.Food:nth-child(7)
+{
+    order: 7;
+}
+}
+@media screen and (max-width:580px)
+{
+ /* ***** gallery ******/
+section#contact .container
+{
+    width: 95%;
+}
+}
